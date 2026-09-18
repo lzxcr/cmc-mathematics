@@ -21,7 +21,7 @@ docs/                 收录与编号说明、编辑规范
 
 ## 构建
 
-依赖 Python 3（含 `pypdf`）、Node.js、LuaLaTeX、latexmk 和 synaptic 6.0.0。字体为 TeX Gyre Pagella 与思源宋体／黑体 CN；模板源码位于 `/home/lzx/项目/synaptic`。
+依赖 Python 3（含 `pypdf`）、Node.js、LuaLaTeX、latexmk 和 synaptic 6.0.1 或更新版本。字体为 TeX Gyre Pagella 与思源宋体／黑体 CN；模板源码位于 `/home/lzx/项目/synaptic`。
 
 ```sh
 python3 -m pip install -r requirements.txt  # 首次安装 PDF 检查依赖
