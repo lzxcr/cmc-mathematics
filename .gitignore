@@ -1,0 +1,6 @@
+/build/*
+!/build/book.pdf
+!/build/methods.pdf
+/scripts/__pycache__/
+/tools/node_modules/
+*.pyc

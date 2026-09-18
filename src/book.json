@@ -1,0 +1,277 @@
+{
+ "schema": 1,
+ "sources": "sources.json",
+ "parts": [
+  {
+   "id": "preliminary",
+   "title": "初赛",
+   "chapters": [
+    {
+     "id": "preliminary-01",
+     "edition": 1,
+     "year": 2009,
+     "title": "第 1 届（2009 年）",
+     "index": "problems/preliminary/01/index.json"
+    },
+    {
+     "id": "preliminary-02",
+     "edition": 2,
+     "year": 2010,
+     "title": "第 2 届（2010 年）",
+     "index": "problems/preliminary/02/index.json"
+    },
+    {
+     "id": "preliminary-03",
+     "edition": 3,
+     "year": 2011,
+     "title": "第 3 届（2011 年）",
+     "index": "problems/preliminary/03/index.json"
+    },
+    {
+     "id": "preliminary-04",
+     "edition": 4,
+     "year": 2012,
+     "title": "第 4 届（2012 年）",
+     "index": "problems/preliminary/04/index.json"
+    },
+    {
+     "id": "preliminary-05",
+     "edition": 5,
+     "year": 2013,
+     "title": "第 5 届（2013 年）",
+     "index": "problems/preliminary/05/index.json"
+    },
+    {
+     "id": "preliminary-06",
+     "edition": 6,
+     "year": 2014,
+     "title": "第 6 届（2014 年）",
+     "index": "problems/preliminary/06/index.json"
+    },
+    {
+     "id": "preliminary-07",
+     "edition": 7,
+     "year": 2015,
+     "title": "第 7 届（2015 年）",
+     "index": "problems/preliminary/07/index.json"
+    },
+    {
+     "id": "preliminary-08",
+     "edition": 8,
+     "year": 2016,
+     "title": "第 8 届（2016 年）",
+     "index": "problems/preliminary/08/index.json"
+    },
+    {
+     "id": "preliminary-09",
+     "edition": 9,
+     "year": 2017,
+     "title": "第 9 届（2017 年）",
+     "index": "problems/preliminary/09/index.json"
+    },
+    {
+     "id": "preliminary-10",
+     "edition": 10,
+     "year": 2018,
+     "title": "第 10 届（2018 年）",
+     "index": "problems/preliminary/10/index.json"
+    },
+    {
+     "id": "preliminary-11",
+     "edition": 11,
+     "year": 2019,
+     "title": "第 11 届（2019 年）",
+     "index": "problems/preliminary/11/index.json"
+    },
+    {
+     "id": "preliminary-12",
+     "edition": 12,
+     "year": 2020,
+     "title": "第 12 届（2020 年）",
+     "index": "problems/preliminary/12/index.json"
+    },
+    {
+     "id": "preliminary-13",
+     "edition": 13,
+     "year": 2021,
+     "title": "第 13 届（2021 年）",
+     "index": "problems/preliminary/13/index.json"
+    },
+    {
+     "id": "preliminary-13-makeup",
+     "edition": 13,
+     "year": 2021,
+     "title": "第 13 届补赛（2021 年）",
+     "index": "problems/preliminary/13-makeup/index.json"
+    },
+    {
+     "id": "preliminary-14",
+     "edition": 14,
+     "year": 2022,
+     "title": "第 14 届（2022 年）",
+     "index": "problems/preliminary/14/index.json"
+    },
+    {
+     "id": "preliminary-14-makeup",
+     "edition": 14,
+     "year": 2022,
+     "title": "第 14 届补赛（2022 年）",
+     "index": "problems/preliminary/14-makeup/index.json"
+    },
+    {
+     "id": "preliminary-14-makeup2",
+     "edition": 14,
+     "year": 2022,
+     "title": "第 14 届第二次补赛（2022 年）",
+     "index": "problems/preliminary/14-makeup2/index.json"
+    },
+    {
+     "id": "preliminary-15",
+     "edition": 15,
+     "year": 2023,
+     "title": "第 15 届（2023 年）",
+     "index": "problems/preliminary/15/index.json"
+    },
+    {
+     "id": "preliminary-16",
+     "edition": 16,
+     "year": 2024,
+     "title": "第 16 届（2024 年）",
+     "index": "problems/preliminary/16/index.json"
+    },
+    {
+     "id": "preliminary-17",
+     "edition": 17,
+     "year": 2025,
+     "title": "第 17 届（2025 年）",
+     "index": "problems/preliminary/17/index.json"
+    }
+   ]
+  },
+  {
+   "id": "finals",
+   "title": "决赛",
+   "chapters": [
+    {
+     "id": "finals-01",
+     "edition": 1,
+     "year": 2010,
+     "title": "第 1 届（2010 年）",
+     "index": "problems/finals/01/index.json"
+    },
+    {
+     "id": "finals-02",
+     "edition": 2,
+     "year": 2011,
+     "title": "第 2 届（2011 年）",
+     "index": "problems/finals/02/index.json"
+    },
+    {
+     "id": "finals-03",
+     "edition": 3,
+     "year": 2012,
+     "title": "第 3 届（2012 年）",
+     "index": "problems/finals/03/index.json"
+    },
+    {
+     "id": "finals-04",
+     "edition": 4,
+     "year": 2013,
+     "title": "第 4 届（2013 年）",
+     "index": "problems/finals/04/index.json"
+    },
+    {
+     "id": "finals-05",
+     "edition": 5,
+     "year": 2014,
+     "title": "第 5 届（2014 年）",
+     "index": "problems/finals/05/index.json"
+    },
+    {
+     "id": "finals-06",
+     "edition": 6,
+     "year": 2015,
+     "title": "第 6 届（2015 年）",
+     "index": "problems/finals/06/index.json"
+    },
+    {
+     "id": "finals-07",
+     "edition": 7,
+     "year": 2016,
+     "title": "第 7 届（2016 年）",
+     "index": "problems/finals/07/index.json"
+    },
+    {
+     "id": "finals-08",
+     "edition": 8,
+     "year": 2017,
+     "title": "第 8 届（2017 年）",
+     "index": "problems/finals/08/index.json"
+    },
+    {
+     "id": "finals-09",
+     "edition": 9,
+     "year": 2018,
+     "title": "第 9 届（2018 年）",
+     "index": "problems/finals/09/index.json"
+    },
+    {
+     "id": "finals-10",
+     "edition": 10,
+     "year": 2019,
+     "title": "第 10 届（2019 年）",
+     "index": "problems/finals/10/index.json"
+    },
+    {
+     "id": "finals-11",
+     "edition": 11,
+     "year": 2021,
+     "title": "第 11 届（2021 年）",
+     "index": "problems/finals/11/index.json"
+    },
+    {
+     "id": "finals-12",
+     "edition": 12,
+     "year": 2021,
+     "title": "第 12 届（2021 年）",
+     "index": "problems/finals/12/index.json"
+    },
+    {
+     "id": "finals-13",
+     "edition": 13,
+     "year": 2022,
+     "title": "第 13 届（2022 年）",
+     "index": "problems/finals/13/index.json"
+    },
+    {
+     "id": "finals-14",
+     "edition": 14,
+     "year": 2023,
+     "title": "第 14 届（2023 年）",
+     "index": "problems/finals/14/index.json"
+    },
+    {
+     "id": "finals-15",
+     "edition": 15,
+     "year": 2024,
+     "title": "第 15 届（2024 年）",
+     "index": "problems/finals/15/index.json"
+    },
+    {
+     "id": "finals-16",
+     "edition": 16,
+     "year": 2025,
+     "title": "第 16 届（2025 年）",
+     "index": "problems/finals/16/index.json"
+    },
+    {
+     "id": "finals-17",
+     "edition": 17,
+     "year": 2026,
+     "title": "第 17 届（2026 年）",
+     "index": "problems/finals/17/index.json"
+    }
+   ]
+  }
+ ]
+}

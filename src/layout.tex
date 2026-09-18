@@ -1,0 +1,34 @@
+% Shared book design. Content and ordering live in Markdown and src/book.json.
+\documentclass[11pt,twoside,openany]{scrbook}
+\usepackage[
+  mode=book,lang=zh,theme=jade,background=syn-paper,
+  font-profile=pagella,cjk-profile=source-han,
+  toc=false,title-layout=page,numbering=none,theorem-style=boxed,
+  density=balanced,measure=wide,card-radius=3pt,rail-width=2pt,rule-weight=0.4pt
+]{synaptic}
+\setcounter{tocdepth}{0}
+\emergencystretch=2em
+\allowdisplaybreaks[2]
+\SynapticTitle{全国大学生数学竞赛题解}
+\SynapticHeader{试题\quad ·\quad 解答\quad ·\quad 评注}
+\SynapticShortTitle{数学竞赛题解}
+\SynapticSubtitle{初赛与决赛\quad ·\quad 思想、方法与结构}
+\SynapticAuthor{Jacobi Lie}
+\SynapticEmail{jssnlzx@seu.edu.cn}
+\SynapticDate{2026}
+\SynapticSubject{数学竞赛题解与方法}
+\SynapticKeywords{数学竞赛,分析,代数,几何}
+% One title per problem, with a stable PDF destination independent of display order.
+\makeatletter
+\newcommand{\BookProblem}[2]{%
+  \par\addvspace{1.2em}\Needspace{7\baselineskip}%
+  \phantomsection
+  \protected@edef\@currentlabel{#1}%
+  \def\@currentlabelname{#1}%
+  \label{pr:#2}%
+  \hypertarget{pr:#2}{}%
+  \pdfbookmark[1]{#1}{problem.#2}%
+  \markright{#1}%
+}
+\makeatother
+\newcommand{\BookProblemEnd}{\par}

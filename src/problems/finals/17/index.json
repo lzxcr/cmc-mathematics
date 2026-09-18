@@ -1,0 +1,221 @@
+{
+  "notes": [],
+  "items": [
+    {
+      "id": "fin17-high:1",
+      "file": "01.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin17-high",
+          "number": 1
+        },
+        {
+          "paper": "fin17-fill",
+          "number": 1
+        },
+        {
+          "paper": "fin17-low",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": "fin17-high:2",
+      "file": "02.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin17-high",
+          "number": 2
+        },
+        {
+          "paper": "fin17-fill",
+          "number": 2
+        },
+        {
+          "paper": "fin17-low",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "fin17-high:3",
+      "file": "03.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin17-high",
+          "number": 3
+        },
+        {
+          "paper": "fin17-low",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "fin17-high:4",
+      "file": "04.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin17-high",
+          "number": 4
+        },
+        {
+          "paper": "fin17-low",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "id": "fin17-high:5",
+      "file": "05.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin17-high",
+          "number": 5
+        },
+        {
+          "paper": "fin17-geom",
+          "number": 1
+        },
+        {
+          "paper": "fin17-low",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "fin17-high:6",
+      "file": "06.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin17-high",
+          "number": 6
+        },
+        {
+          "paper": "fin17-low",
+          "number": 8
+        }
+      ]
+    },
+    {
+      "id": "fin17-high:7",
+      "file": "07.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin17-high",
+          "number": 7
+        },
+        {
+          "paper": "fin17-low",
+          "number": 9
+        }
+      ]
+    },
+    {
+      "id": "fin17-low:6",
+      "file": "08.md",
+      "audience": "low",
+      "origins": [
+        {
+          "paper": "fin17-low",
+          "number": 6
+        }
+      ]
+    },
+    {
+      "id": "fin17-low:7",
+      "file": "09.md",
+      "audience": "low",
+      "origins": [
+        {
+          "paper": "fin17-low",
+          "number": 7
+        }
+      ]
+    },
+    {
+      "id": "fin17-high:8",
+      "file": "10.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin17-high",
+          "number": 8
+        }
+      ]
+    },
+    {
+      "id": "fin17-high:9",
+      "file": "11.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin17-high",
+          "number": 9
+        }
+      ]
+    },
+    {
+      "id": "fin17-low:10",
+      "file": "12.md",
+      "audience": "low",
+      "origins": [
+        {
+          "paper": "fin17-low",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "fin17-high:10",
+      "file": "13.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin17-high",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "fin17-high:11",
+      "file": "14.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin17-high",
+          "number": 11
+        }
+      ]
+    },
+    {
+      "id": "fin17-high:12",
+      "file": "15.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin17-high",
+          "number": 12
+        }
+      ]
+    },
+    {
+      "id": "fin17-high:13",
+      "file": "16.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin17-high",
+          "number": 13
+        }
+      ]
+    }
+  ]
+}

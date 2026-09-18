@@ -1,0 +1,76 @@
+{
+  "notes": [
+    {
+      "paper": "ch08-13th-A-makeup",
+      "text": "因疫情影响，部分赛区或学校延期举行的统一补赛试卷。"
+    }
+  ],
+  "items": [
+    {
+      "id": "ch08-13th-A-makeup:1",
+      "file": "01.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch08-13th-A-makeup",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": "ch08-13th-A-makeup:2",
+      "file": "02.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch08-13th-A-makeup",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "ch08-13th-A-makeup:3",
+      "file": "03.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch08-13th-A-makeup",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "ch08-13th-A-makeup:4",
+      "file": "04.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch08-13th-A-makeup",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "id": "ch08-13th-A-makeup:5",
+      "file": "05.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch08-13th-A-makeup",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "ch08-13th-A-makeup:6",
+      "file": "06.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch08-13th-A-makeup",
+          "number": 6
+        }
+      ]
+    }
+  ]
+}

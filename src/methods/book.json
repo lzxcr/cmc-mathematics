@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "parts": [
+    {
+      "id": "inner",
+      "title": "内篇：分析估计与核心工具",
+      "chapters": [
+        {
+          "id": "inner-01-limits",
+          "title": "极限、上下极限与渐近记号",
+          "file": "inner/01-limits.md"
+        },
+        {
+          "id": "inner-02-taylor",
+          "title": "局部展开、插值与 Euler–Maclaurin 公式",
+          "file": "inner/02-taylor.md"
+        },
+        {
+          "id": "inner-03-series",
+          "title": "级数、反常积分与振荡抵消",
+          "file": "inner/03-series.md"
+        },
+        {
+          "id": "inner-04-integration",
+          "title": "积分、收敛与正交方法",
+          "file": "inner/04-integration.md"
+        },
+        {
+          "id": "inner-05-asymptotics",
+          "title": "渐近估计与尺度选择",
+          "file": "inner/05-asymptotics.md"
+        },
+        {
+          "id": "inner-06-inequalities",
+          "title": "不等式、对偶与矩方法",
+          "file": "inner/06-inequalities.md"
+        },
+        {
+          "id": "inner-07-linear",
+          "title": "矩阵与算子的结构、范数和迭代",
+          "file": "inner/07-linear.md"
+        },
+        {
+          "id": "inner-08-complex",
+          "title": "解析函数、零点与留数方法",
+          "file": "inner/08-complex.md"
+        },
+        {
+          "id": "inner-09-transforms",
+          "title": "含参积分与积分变换",
+          "file": "inner/09-transforms.md"
+        },
+        {
+          "id": "inner-10-special-functions",
+          "title": "常用特殊函数与渐近联系",
+          "file": "inner/10-special-functions.md"
+        }
+      ]
+    },
+    {
+      "id": "outer",
+      "title": "外篇：结构理论与进一步视野",
+      "chapters": [
+        {
+          "id": "outer-01-algebra",
+          "title": "环、模、域与矩阵结构",
+          "file": "outer/01-algebra.md"
+        },
+        {
+          "id": "outer-02-geometry",
+          "title": "几何中的度量与变分",
+          "file": "outer/02-geometry.md"
+        },
+        {
+          "id": "outer-03-dynamics",
+          "title": "微分方程、离散迭代与数值方法",
+          "file": "outer/03-dynamics.md"
+        },
+        {
+          "id": "outer-04-probability",
+          "title": "概率结构与极限定理",
+          "file": "outer/04-probability.md"
+        },
+        {
+          "id": "outer-05-representations",
+          "title": "表示论与 Lie 代数初步",
+          "file": "outer/05-representations.md"
+        },
+        {
+          "id": "outer-06-primes",
+          "title": "素数分布与复分析的视野",
+          "file": "outer/06-primes.md"
+        }
+      ]
+    }
+  ]
+}

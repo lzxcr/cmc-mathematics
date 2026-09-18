@@ -1,0 +1,76 @@
+{
+  "notes": [
+    {
+      "paper": "ch05-14th-A-makeup",
+      "text": "考试形式：闭卷；考试时间：150 分钟；满分：100 分。"
+    }
+  ],
+  "items": [
+    {
+      "id": "ch05-14th-A-makeup:1",
+      "file": "01.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch05-14th-A-makeup",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": "ch05-14th-A-makeup:2",
+      "file": "02.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch05-14th-A-makeup",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "ch05-14th-A-makeup:3",
+      "file": "03.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch05-14th-A-makeup",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "ch05-14th-A-makeup:4",
+      "file": "04.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch05-14th-A-makeup",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "id": "ch05-14th-A-makeup:5",
+      "file": "05.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch05-14th-A-makeup",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "ch05-14th-A-makeup:6",
+      "file": "06.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch05-14th-A-makeup",
+          "number": 6
+        }
+      ]
+    }
+  ]
+}

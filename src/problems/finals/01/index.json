@@ -1,0 +1,135 @@
+{
+  "notes": [
+    {
+      "paper": "fin01-all",
+      "text": "本届数学类决赛不分高、低年级组。"
+    },
+    {
+      "paper": "fin01-all",
+      "text": "原卷第一大题的四个填空小题分别列为第1至4题；原卷第二至八大题依次列为第5至11题。"
+    }
+  ],
+  "items": [
+    {
+      "id": "fin01-all:1",
+      "file": "01.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin01-all",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": "fin01-all:2",
+      "file": "02.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin01-all",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "fin01-all:3",
+      "file": "03.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin01-all",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "fin01-all:4",
+      "file": "04.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin01-all",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "id": "fin01-all:5",
+      "file": "05.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin01-all",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "fin01-all:6",
+      "file": "06.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin01-all",
+          "number": 6
+        }
+      ]
+    },
+    {
+      "id": "fin01-all:7",
+      "file": "07.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin01-all",
+          "number": 7
+        }
+      ]
+    },
+    {
+      "id": "fin01-all:8",
+      "file": "08.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin01-all",
+          "number": 8
+        }
+      ]
+    },
+    {
+      "id": "fin01-all:9",
+      "file": "09.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin01-all",
+          "number": 9
+        }
+      ]
+    },
+    {
+      "id": "fin01-all:10",
+      "file": "10.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin01-all",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "fin01-all:11",
+      "file": "11.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin01-all",
+          "number": 11
+        }
+      ]
+    }
+  ]
+}

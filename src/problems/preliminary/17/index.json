@@ -1,0 +1,76 @@
+{
+  "notes": [
+    {
+      "paper": "ch01-17th-A",
+      "text": "考试形式：闭卷；考试时间：150 分钟；满分：100 分。"
+    }
+  ],
+  "items": [
+    {
+      "id": "ch01-17th-A:1",
+      "file": "01.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch01-17th-A",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": "ch01-17th-A:2",
+      "file": "02.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch01-17th-A",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "ch01-17th-A:3",
+      "file": "03.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch01-17th-A",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "ch01-17th-A:4",
+      "file": "04.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch01-17th-A",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "id": "ch01-17th-A:5",
+      "file": "05.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch01-17th-A",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "ch01-17th-A:6",
+      "file": "06.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch01-17th-A",
+          "number": 6
+        }
+      ]
+    }
+  ]
+}

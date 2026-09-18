@@ -1,0 +1,76 @@
+{
+  "notes": [
+    {
+      "paper": "fin02-all",
+      "text": "本届数学类决赛不分高、低年级组。"
+    }
+  ],
+  "items": [
+    {
+      "id": "fin02-all:1",
+      "file": "01.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin02-all",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": "fin02-all:2",
+      "file": "02.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin02-all",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "fin02-all:3",
+      "file": "03.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin02-all",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "fin02-all:4",
+      "file": "04.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin02-all",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "id": "fin02-all:5",
+      "file": "05.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin02-all",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "fin02-all:6",
+      "file": "06.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin02-all",
+          "number": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "notes": [
+    {
+      "paper": "fin05-hi",
+      "text": "原卷第1至4题为必做题，第5至11题任选两题；本书完整收录全部选做题。高、低年级重复题已合并，并保留两卷原题号。"
+    }
+  ],
+  "items": [
+    {
+      "id": "fin05-hi:1",
+      "file": "01.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin05-hi",
+          "number": 1
+        },
+        {
+          "paper": "fin05-lo",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": "fin05-hi:2",
+      "file": "02.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin05-hi",
+          "number": 2
+        },
+        {
+          "paper": "fin05-lo",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "fin05-hi:3",
+      "file": "03.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin05-hi",
+          "number": 3
+        },
+        {
+          "paper": "fin05-lo",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "fin05-hi:4",
+      "file": "04.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin05-hi",
+          "number": 4
+        },
+        {
+          "paper": "fin05-lo",
+          "number": 6
+        }
+      ]
+    },
+    {
+      "id": "fin05-hi:5",
+      "file": "05.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin05-hi",
+          "number": 5
+        },
+        {
+          "paper": "fin05-lo",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "id": "fin05-lo:3",
+      "file": "06.md",
+      "audience": "low",
+      "origins": [
+        {
+          "paper": "fin05-lo",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "fin05-hi:6",
+      "file": "07.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin05-hi",
+          "number": 6
+        }
+      ]
+    },
+    {
+      "id": "fin05-hi:7",
+      "file": "08.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin05-hi",
+          "number": 7
+        }
+      ]
+    },
+    {
+      "id": "fin05-hi:8",
+      "file": "09.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin05-hi",
+          "number": 8
+        }
+      ]
+    },
+    {
+      "id": "fin05-hi:9",
+      "file": "10.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin05-hi",
+          "number": 9
+        }
+      ]
+    },
+    {
+      "id": "fin05-hi:10",
+      "file": "11.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin05-hi",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "fin05-hi:11",
+      "file": "12.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin05-hi",
+          "number": 11
+        }
+      ]
+    }
+  ]
+}

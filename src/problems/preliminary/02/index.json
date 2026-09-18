@@ -1,0 +1,93 @@
+{
+  "notes": [],
+  "items": [
+    {
+      "id": "pre02-math:1",
+      "file": "01.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre02-math",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": "pre02-math:2",
+      "file": "02.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre02-math",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "pre02-math:3",
+      "file": "03.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre02-math",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "pre02-math:4",
+      "file": "04.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre02-math",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "id": "pre02-math:5",
+      "file": "05.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre02-math",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "pre02-math:6",
+      "file": "06.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre02-math",
+          "number": 6
+        }
+      ]
+    },
+    {
+      "id": "pre02-math:7",
+      "file": "07.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre02-math",
+          "number": 7
+        }
+      ]
+    },
+    {
+      "id": "pre02-math:8",
+      "file": "08.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre02-math",
+          "number": 8
+        }
+      ]
+    }
+  ]
+}

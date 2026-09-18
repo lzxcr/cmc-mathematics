@@ -1,0 +1,71 @@
+{
+  "notes": [],
+  "items": [
+    {
+      "id": "ch06-14th-A-makeup2:1",
+      "file": "01.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch06-14th-A-makeup2",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": "ch06-14th-A-makeup2:2",
+      "file": "02.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch06-14th-A-makeup2",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "ch06-14th-A-makeup2:3",
+      "file": "03.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch06-14th-A-makeup2",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "ch06-14th-A-makeup2:4",
+      "file": "04.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch06-14th-A-makeup2",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "id": "ch06-14th-A-makeup2:5",
+      "file": "05.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch06-14th-A-makeup2",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "ch06-14th-A-makeup2:6",
+      "file": "06.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch06-14th-A-makeup2",
+          "number": 6
+        }
+      ]
+    }
+  ]
+}

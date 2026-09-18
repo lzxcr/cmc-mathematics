@@ -1,0 +1,9 @@
+{
+  "name": "cmc-math-check",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "dependencies": {
+    "katex": "0.18.7"
+  }
+}

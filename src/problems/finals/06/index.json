@@ -1,0 +1,202 @@
+{
+  "notes": [],
+  "items": [
+    {
+      "id": "fin06-lo:1",
+      "file": "01.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin06-lo",
+          "number": 1
+        },
+        {
+          "paper": "fin06-hi",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": "fin06-lo:2",
+      "file": "02.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin06-lo",
+          "number": 2
+        },
+        {
+          "paper": "fin06-hi",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "fin06-lo:3",
+      "file": "03.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin06-lo",
+          "number": 3
+        },
+        {
+          "paper": "fin06-hi",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "fin06-lo:4",
+      "file": "04.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin06-lo",
+          "number": 4
+        },
+        {
+          "paper": "fin06-hi",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "id": "fin06-lo:5",
+      "file": "05.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin06-lo",
+          "number": 5
+        },
+        {
+          "paper": "fin06-hi",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "fin06-lo:6",
+      "file": "06.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin06-lo",
+          "number": 6
+        },
+        {
+          "paper": "fin06-hi",
+          "number": 6
+        }
+      ]
+    },
+    {
+      "id": "fin06-lo:7",
+      "file": "07.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin06-lo",
+          "number": 7
+        },
+        {
+          "paper": "fin06-hi",
+          "number": 7
+        }
+      ]
+    },
+    {
+      "id": "fin06-lo:8",
+      "file": "08.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin06-lo",
+          "number": 8
+        },
+        {
+          "paper": "fin06-hi",
+          "number": 8
+        }
+      ]
+    },
+    {
+      "id": "fin06-lo:9",
+      "file": "09.md",
+      "audience": "low",
+      "origins": [
+        {
+          "paper": "fin06-lo",
+          "number": 9
+        }
+      ]
+    },
+    {
+      "id": "fin06-hi:9",
+      "file": "10.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin06-hi",
+          "number": 9
+        }
+      ]
+    },
+    {
+      "id": "fin06-hi:10",
+      "file": "11.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin06-hi",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "fin06-hi:11",
+      "file": "12.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin06-hi",
+          "number": 11
+        }
+      ]
+    },
+    {
+      "id": "fin06-hi:12",
+      "file": "13.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin06-hi",
+          "number": 12
+        }
+      ]
+    },
+    {
+      "id": "fin06-hi:13",
+      "file": "14.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin06-hi",
+          "number": 13
+        }
+      ]
+    },
+    {
+      "id": "fin06-hi:14",
+      "file": "15.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin06-hi",
+          "number": 14
+        }
+      ]
+    }
+  ]
+}

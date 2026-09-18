@@ -1,0 +1,71 @@
+{
+  "notes": [],
+  "items": [
+    {
+      "id": "pre08-math:1",
+      "file": "01.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre08-math",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": "pre08-math:2",
+      "file": "02.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre08-math",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "pre08-math:3",
+      "file": "03.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre08-math",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "pre08-math:4",
+      "file": "04.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre08-math",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "id": "pre08-math:5",
+      "file": "05.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre08-math",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "pre08-math:6",
+      "file": "06.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "pre08-math",
+          "number": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "notes": [],
+  "items": [
+    {
+      "id": "ch02-16th-A:1",
+      "file": "01.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch02-16th-A",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": "ch02-16th-A:2",
+      "file": "02.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch02-16th-A",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "ch02-16th-A:3",
+      "file": "03.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch02-16th-A",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "ch02-16th-A:4",
+      "file": "04.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch02-16th-A",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "id": "ch02-16th-A:5",
+      "file": "05.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch02-16th-A",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "ch02-16th-A:6",
+      "file": "06.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "ch02-16th-A",
+          "number": 6
+        }
+      ]
+    }
+  ]
+}

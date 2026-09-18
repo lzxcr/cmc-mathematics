@@ -1,0 +1,203 @@
+{
+  "notes": [
+    {
+      "paper": "fin08-hi",
+      "text": "原卷第 1–4 大题必答，原卷第 5–10 大题任选三题。"
+    }
+  ],
+  "items": [
+    {
+      "id": "fin08-hi:1",
+      "file": "01.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin08-hi",
+          "number": 1
+        },
+        {
+          "paper": "fin08-lo",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": "fin08-hi:2",
+      "file": "02.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin08-hi",
+          "number": 2
+        },
+        {
+          "paper": "fin08-lo",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "fin08-hi:3",
+      "file": "03.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin08-hi",
+          "number": 3
+        },
+        {
+          "paper": "fin08-lo",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "fin08-hi:4",
+      "file": "04.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin08-hi",
+          "number": 4
+        },
+        {
+          "paper": "fin08-lo",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "id": "fin08-hi:5",
+      "file": "05.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin08-hi",
+          "number": 5
+        },
+        {
+          "paper": "fin08-lo",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "fin08-hi:6",
+      "file": "06.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin08-hi",
+          "number": 6
+        },
+        {
+          "paper": "fin08-lo",
+          "number": 6
+        }
+      ]
+    },
+    {
+      "id": "fin08-hi:7",
+      "file": "07.md",
+      "audience": "all",
+      "origins": [
+        {
+          "paper": "fin08-hi",
+          "number": 7
+        },
+        {
+          "paper": "fin08-lo",
+          "number": 7
+        }
+      ]
+    },
+    {
+      "id": "fin08-lo:8",
+      "file": "08.md",
+      "audience": "low",
+      "origins": [
+        {
+          "paper": "fin08-lo",
+          "number": 8
+        }
+      ]
+    },
+    {
+      "id": "fin08-hi:8",
+      "file": "09.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin08-hi",
+          "number": 8
+        }
+      ]
+    },
+    {
+      "id": "fin08-lo:9",
+      "file": "10.md",
+      "audience": "low",
+      "origins": [
+        {
+          "paper": "fin08-lo",
+          "number": 9
+        }
+      ]
+    },
+    {
+      "id": "fin08-hi:9",
+      "file": "11.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin08-hi",
+          "number": 9
+        }
+      ]
+    },
+    {
+      "id": "fin08-hi:10",
+      "file": "12.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin08-hi",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "fin08-hi:11",
+      "file": "13.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin08-hi",
+          "number": 11
+        }
+      ]
+    },
+    {
+      "id": "fin08-hi:12",
+      "file": "14.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin08-hi",
+          "number": 12
+        }
+      ]
+    },
+    {
+      "id": "fin08-hi:13",
+      "file": "15.md",
+      "audience": "high",
+      "origins": [
+        {
+          "paper": "fin08-hi",
+          "number": 13
+        }
+      ]
+    }
+  ]
+}
