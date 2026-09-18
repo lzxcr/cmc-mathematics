@@ -43,6 +43,40 @@ L(f)=\int_a^b f^{(m)}(t)K(t)\,\mathrm dt,
 这里 $L$ 作用于变量 $x$；在常见的有限次取值与积分组合中，交换由连续性直接保证。核 $K$ 的符号或 $L^1$ 范数就成为求积误差的证书。先检验多项式精确度，再研究核，是统一处理插值与数值积分的路线。
 
 
+## Gauss 求积：精确性、正权与余项 {#app:estimate-gauss}
+
+设 $n\ge1$，$s_1,\ldots,s_n\in(-1,1)$ 是 Legendre 多项式 $L_n$ 的互异零点。以这些点为节点，定义 Lagrange 基函数及求积公式
+\[
+\ell_j(x)=\prod_{k\ne j}\frac{x-s_k}{s_j-s_k},\qquad
+w_j=\int_{-1}^1\ell_j(x)\,\mathrm dx,\qquad
+Q_n(f)=\sum_{j=1}^nw_jf(s_j).
+\]
+插值直接保证 $Q_n$ 对次数小于 $n$ 的多项式精确；正交性把精确度提高到 $2n-1$。事实上，对 $\deg p\le2n-1$，作多项式除法 $p=qL_n+r$，其中 $\deg q,\deg r<n$。节点上 $L_n=0$，而 $L_n$ 与 $q$ 正交，故
+\[
+Q_n(p)=Q_n(r)=\int_{-1}^1r(x)\,\mathrm dx
+=\int_{-1}^1p(x)\,\mathrm dx.
+\]
+次数限制不能继续放宽：$Q_n(L_n^2)=0$，但 $\int_{-1}^1L_n^2\,\mathrm dx>0$。因此使用离散正交关系之前，应先检查被积多项式的次数；[第十六届决赛的 Legendre 矩阵题](#pr:fin16-high:13) 正是这一原则的应用。
+
+正权也由精确性得到，而无需计算权重公式。因为 $\deg\ell_j^2=2n-2$，
+\[
+w_j=Q_n(\ell_j^2)=\int_{-1}^1\ell_j(x)^2\,\mathrm dx>0.
+\]
+又有 $\sum_jw_j=Q_n(1)=2$，故 $|Q_n(f)|\le2\|f\|_\infty$：正权保证求积不会把取值误差任意放大。
+
+对一般函数，则用插值余项把精确度转成误差界。设 $f\in C^{2n}[-1,1]$，取次数不超过 $2n-1$ 的 Hermite 插值多项式 $H$，使 $H(s_j)=f(s_j)$、$H'(s_j)=f'(s_j)$。令 $\Pi_n(x)=\prod_{j=1}^n(x-s_j)$。反复使用 Rolle 定理，计入各节点的二重零点，得到
+\[
+f(x)-H(x)=\frac{f^{(2n)}(\xi_x)}{(2n)!}\Pi_n(x)^2
+\qquad(x\ne s_j),
+\]
+其中 $\xi_x\in(-1,1)$。因 $Q_n(f)=Q_n(H)=\int_{-1}^1H$，于是
+\[
+\left|\int_{-1}^1f(x)\,\mathrm dx-Q_n(f)\right|
+\le\frac{\|f^{(2n)}\|_\infty}{(2n)!}
+\int_{-1}^1\Pi_n(x)^2\,\mathrm dx.
+\]
+若 $f^{(2n)}\ge0$，则误差 $\int f-Q_n(f)\ge0$；非正时方向相反。平方节点因子同时控制误差大小与符号。这里无需追踪随 $x$ 变化的中间点，只须对高阶导数作一致控制。
+
 ## 三种余项与适用边界 {#app:taylor-forms}
 
 **Peano 余项。** 若函数在 $a$ 附近具有直到 $m-1$ 阶导数，且 $f^{(m-1)}$ 在 $a$ 可微，则

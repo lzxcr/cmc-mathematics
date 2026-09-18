@@ -37,19 +37,126 @@
 
 逐项 $r_{n,k}=o(1)$ 不保证 $\sum_{k=1}^nr_{n,k}=o(1)$；即使所有项都等于 $1/n$，总和仍为 $1$。若有一致界 $|r_{n,k}|\leq Cn^{-2}$，才可立即得总和 $O(n^{-1})$。积分、乘积和行列式中的误差同样需要在操作层面控制。
 
-## Cesàro 平均与 Stolz 定理 {#app:limit-stolz}
+## Cesàro 平均与 Stolz 的上下极限形式 {#app:limit-stolz}
 
 若 $a_n\to L$，则 $n^{-1}\sum_{k=1}^na_k\to L$。证明把有限头部与最终落在 $L\pm\varepsilon$ 内的尾部分开，有限头部除以 $n$ 后消失。更一般地，正权 $w_k$ 满足 $W_n=\sum_{k\leq n}w_k\to\infty$ 时，$W_n^{-1}\sum_{k\leq n}w_ka_k\to L$。
 
-**Stolz 定理的无穷型。** 设 $b_n$ 严格递增且趋于 $+\infty$。若
+**Stolz 的上下极限链。** 记
 \[
-\frac{a_{n+1}-a_n}{b_{n+1}-b_n}\longrightarrow L,
+r_n=\frac{a_n}{b_n},\qquad
+u_n=\frac{a_{n+1}-a_n}{b_{n+1}-b_n}.
 \]
-则 $a_n/b_n\to L$；$L$ 可为扩展实数。有限 $L$ 时，把充分大的各个增量夹在 $(L\pm\varepsilon)(b_{n+1}-b_n)$ 之间，望远镜求和后除以 $b_n$ 即得。无需额外要求 $a_n\to\infty$。
+在下列任一组条件下，都有
+\[
+\liminf u_n\leq\liminf r_n
+\leq\limsup r_n\leq\limsup u_n,
+\]
+其中上下极限允许取 $\pm\infty$：
 
-**零比零型。** 若 $b_n>0$ 严格递减到零，$a_n\to0$，且上述差商趋于 $L$，同一结论成立。此时应从 $n$ 向无穷远求和，利用两个序列的尾端极限；不能套用“分母趋于无穷”的证明。没有 $a_n\to0$，例如 $a_n=1+b_n$，结论立即失败。
+（1）无穷型：$b_n$ 严格递增到 $+\infty$，对实数列 $(a_n)$ 无其他要求；只需从 $b_n>0$ 的尾部起考虑商。
+
+（2）零比零型：$b_n>0$ 严格递减到零，且 $a_n\to0$。
+
+核心是正权平均。无穷型中，固定充分大的 $N$，则
+\[
+r_n=\frac{a_N}{b_n}
++\sum_{k=N}^{n-1}\frac{b_{k+1}-b_k}{b_n}u_k.
+\]
+有限头部 $a_N/b_n$ 趋于零，尾部正权之和趋于 $1$。因此 $u_k$ 的任意有限最终下界或上界，也是 $r_n$ 的下极限之下界或上极限之上界。让这些界逼近相应的上下极限，即得不等式链；用任意实数作界，也涵盖了无穷值。
+
+零比零型则向尾端求和：由 $a_n,b_n\to0$，
+\[
+r_n=\sum_{k=n}^{\infty}\frac{b_k-b_{k+1}}{b_n}u_k.
+\]
+此式由有限望远镜求和后取极限得到，正权之和恰为 $1$，同样传递尾部的上下界。这里 $a_n\to0$ 不能删除，例如 $a_n=1+b_n$ 的差商恒为 $1$，而 $a_n/b_n\to+\infty$。
+
+特别地，若 $u_n\to L$，不等式链便给出 $r_n\to L$，其中 $L$ 可以是扩展实数。这是通常的 Stolz 定理；无穷型并不要求 $a_n\to\infty$。
+
+**何时可以反向。** 一般不能从商的收敛推出差商的收敛。例如 $a_n=nL+(-1)^n$、$b_n=n$ 时，$r_n\to L$，而 $u_n=L-2(-1)^n$ 振荡。以下两种附加条件分别控制尺度与振荡。
+
+第一种是相邻尺度有固定分离：在上述任一种情形下，若最终有
+\[
+\frac{\max\{b_n,b_{n+1}\}}{|b_{n+1}-b_n|}\leq C,
+\]
+则 $r_n\to L\in\mathbb R$ 可以反推 $u_n\to L$。事实上，
+\[
+u_n-L=
+\frac{b_{n+1}(r_{n+1}-L)-b_n(r_n-L)}{b_{n+1}-b_n},
+\]
+右侧两个系数都有界。无穷型的条件等价于增量 $(b_{n+1}-b_n)/b_n$ 最终有正下界；零比零型则是 $(b_n-b_{n+1})/b_n$ 最终有正下界。
+
+若进一步有 $b_n/b_{n+1}\to0$（无穷型），或 $b_{n+1}/b_n\to0$（零比零型），且 $(r_n)$ 有界，则单个增量已支配相应尺度。由同一恒等式，分别有 $u_n-r_{n+1}\to0$ 或 $u_n-r_n\to0$，因而即使商不收敛，也有
+\[
+\liminf u_n=\liminf r_n,\qquad
+\limsup u_n=\limsup r_n.
+\]
+
+第二种是单调性。若 $(v_n)$ 最终单调，且 $S_n=\sum_{k=1}^nv_k$ 满足 $S_n/n\to L\in\mathbb R$，则 $v_n\to L$。例如最终非减时，对充分大的 $n$，令 $m=\lfloor n/2\rfloor$，有
+\[
+\frac{S_n-S_m}{n-m}\leq v_n
+\leq\frac{S_{2n}-S_n}{n}.
+\]
+两端均趋于 $L$；非增时不等号反向。这给出 Cesàro 平均的单调逆定理，也就是 $b_n=n$、差商最终单调时的 Stolz 逆向结论。平均会掩盖快速振荡，单调性正好排除了这一障碍。
 
 **应用。** 对 $p>-1$，取 $a_n=\sum_{k=1}^nk^p$、$b_n=n^{p+1}$，差商趋于 $1/(p+1)$，所以 $\sum_{k\leq n}k^p\sim n^{p+1}/(p+1)$。若要求 $n^p/2$ 等修正项，则需[求和的 Euler–Maclaurin 公式](#app:taylor-em)。Stolz 负责首阶比例，带余项的求和公式负责更精细的信息。
+
+## L’Hospital 法则与连续平均 {#app:limit-lhospital}
+
+Stolz 的连续对应同样是不等式链。统一考虑 $x\uparrow\omega$，其中 $\omega$ 可以有限，也可以是 $+\infty$。设 $f,g$ 在该端点的左邻域内可微，且最终 $g>0$。在下列任一组条件下，
+\[
+\liminf_{x\uparrow\omega}\frac{f'(x)}{g'(x)}
+\leq\liminf_{x\uparrow\omega}\frac{f(x)}{g(x)}
+\leq\limsup_{x\uparrow\omega}\frac{f(x)}{g(x)}
+\leq\limsup_{x\uparrow\omega}\frac{f'(x)}{g'(x)}:
+\]
+
+（1）无穷型：$g'>0$，且 $g(x)\to+\infty$；不要求 $f$ 也趋于无穷。
+
+（2）零比零型：$g'<0$，且 $f(x),g(x)\to0$。
+
+上下极限允许取扩展实数值，导数比收敛时便得到通常的 L’Hospital 法则。其他单侧趋近方向或分母符号，可通过反向参数化或同时将 $f,g$ 变号处理。
+
+证明只需 Cauchy 中值定理：对端点附近的 $x<y$，某个 $\xi\in(x,y)$ 满足
+\[
+\frac{f(y)-f(x)}{g(y)-g(x)}=\frac{f'(\xi)}{g'(\xi)}.
+\]
+因此导数比的任意最终下界或上界，也约束相应的增量比。无穷型先固定 $x$，令 $y\uparrow\omega$，利用
+\[
+\frac{f(y)}{g(y)}=
+\frac{f(x)}{g(y)}+
+\left(1-\frac{g(x)}{g(y)}\right)
+\frac{f(y)-f(x)}{g(y)-g(x)}
+\]
+消去固定头部。零比零型则固定 $x$ 后令 $y\uparrow\omega$，增量比直接趋于 $f(x)/g(x)$。再让有限的上下界逼近导数比的上下极限，即得完整链。
+
+两种定理的共同机制是正权平均：离散情形把 $\Delta a$ 写成 $u\,\Delta b$；若 $f,g\in C^1$，连续情形则把 $f'\,\mathrm dx$ 写成 $(f'/g')g'\,\mathrm dx$。无穷型的正权分别为 $\Delta b$ 与 $g'\,\mathrm dx$；零比零型向尾端求和、积分，正权分别为 $-\Delta b$ 与 $-g'\,\mathrm dx$。Cauchy 中值定理使连续版不必额外要求导数连续。
+
+**逆向需要控制局部振荡。** 在 $x\to+\infty$ 时，$f(x)=Lx+\sin x$、$g(x)=x$ 满足 $f/g\to L$，而 $f'/g'=L+\cos x$ 不收敛。即使取指数分母也不够：令
+\[
+f(x)=Le^x+\sin(e^{2x}),\qquad g(x)=e^x,
+\]
+仍有 $f/g\to L$，但 $f'/g'=L+2e^x\cos(e^{2x})$ 无界振荡。离散情形的尺度分离控制的是一个完整步长上的差商，无法自动约束连续情形在任意小区间内的振荡。
+
+**单调密度定理。** 设 $u:[0,+\infty)\to[0,+\infty)$ 局部可积且最终单调，
+\[
+F(x)=\int_0^xu(t)\,\mathrm dt\sim Cx^\rho,
+\qquad C,\rho>0,\quad x\to+\infty.
+\]
+则 $u(x)\sim C\rho x^{\rho-1}$。这提供了一个严格的“等价式求导”条件，而不要求 $u$ 连续。
+
+固定 $\lambda>1$。若 $u$ 最终非减，对充分大的 $x$ 有
+\[
+\frac{F(x)-F(x/\lambda)}{x-x/\lambda}
+\leq u(x)\leq
+\frac{F(\lambda x)-F(x)}{(\lambda-1)x}.
+\]
+除以 $Cx^{\rho-1}$ 并取上下极限，左、右两端分别趋于
+\[
+\frac{1-\lambda^{-\rho}}{1-\lambda^{-1}},
+\qquad
+\frac{\lambda^\rho-1}{\lambda-1}.
+\]
+再令 $\lambda\downarrow1$，两者均趋于 $\rho$。最终非增时不等号反向，结论相同。$\rho=1$ 正是平均值收敛加单调性推出函数值收敛；一般的 $\rho$ 则同时恢复增长阶与首项系数。这类借助附加条件从平均恢复局部量的结论，通常称为 Tauber 型结论。
 
 ## 从乘积到对数 {#app:limit-products}
 
